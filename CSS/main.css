@@ -1,0 +1,24 @@
+li {
+  border: 1px solid #00C6D8;
+  width: 30em;
+  list-style: none; }
+
+p {
+  padding: 2em;
+  overflow: hidden;
+  display: none; }
+
+.slide-p {
+  overflow: hidden;
+  display: block; }
+
+h2 {
+  color: white;
+  background-color: #00C6D8;
+  padding: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 2px solid #00C6D8; }
+  h2:hover {
+    background-color: #0cebff;
+    border: 2px solid #0cebff; }

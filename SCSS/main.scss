@@ -1,0 +1,40 @@
+$colorOne: #00C6D8;
+
+
+li {
+  border: 1px solid $colorOne;
+  width: 30em; 
+  list-style: none;
+}
+
+p {
+  padding: 2em;
+  overflow: hidden;
+  // height: 4em;
+  display: none;
+}
+
+.slide-p {
+   overflow: hidden;
+   // height: 0;
+   display: block;
+}
+
+
+h2 {
+  color: white;
+  background-color: $colorOne;
+  padding: 1em;
+  margin-top: 0; 
+  margin-bottom: 0;
+  border: 2px solid $colorOne;
+
+
+
+
+  &:hover {
+    background-color: lighten($colorOne, 10%);
+    border: 2px solid lighten($colorOne, 10%);
+  }
+}
+
